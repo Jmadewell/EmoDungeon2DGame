@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   presetSprites: []
   presetColors:
-  - {r: 0.51979196, g: 0.32226774, b: 0.9622642, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
   changeAmount: 0
   consoleLog: 0
 --- !u!1 &3332423959526199600
@@ -191,7 +191,7 @@ SpriteRenderer:
   m_SortingOrder: -5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 48ad0c76394a14a028745e9d51b2f445, type: 3}
-  m_Color: {r: 0.5849056, g: 0.41285104, b: 0.20140618, a: 1}
+  m_Color: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -309,6 +309,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6926754752990608024, guid: c36e79e73eb804e1b9c71a25ef92bb32, type: 3}
       propertyPath: numberOfUses
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6926754752990608024, guid: c36e79e73eb804e1b9c71a25ef92bb32, type: 3}
+      propertyPath: drawTriggerArea
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6926754752990608024, guid: c36e79e73eb804e1b9c71a25ef92bb32, type: 3}
